@@ -1,0 +1,74 @@
+/* 
+   Hotel Natoma style sheet 
+   Filename: styles.css
+
+   Author: Wirnkar Emmanuel   
+   Date: 07/08/2026    
+   HTML5 and CSS3 Illustrated Unit D, Independent Challenge 3
+ */
+ /*  Reset Styles  */
+ article, body, div, footer, header, h1, h2, p {
+	 margin: 0;
+	 padding: 0;
+	 border: 0;
+ }
+ /*  Page Container  */
+ .container {
+	 max-width: 800px;
+	 margin: 0 auto;
+	 border-left: 3px solid black;
+	 border-right: 3px solid black;
+	 padding: 4em;
+ }
+
+/* body and page container */
+.container {
+   background-color: linen;
+}
+
+/* headings */
+header {
+   text-align: center;
+   color: white;
+   background-color: darkgreen;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   max-width: 780px;
+   padding: 10px;
+   border-top: 3px solid black;
+   border-bottom: 3px solid black; 
+}
+p {
+	color: 
+}
+p.logoleft {
+	position: absolute;
+	top: 3px;
+	left: 1em;
+}
+p.logoright {
+	position: absolute;
+	top: 3px;
+	right: 1em;
+}
+
+/* main content */
+article {
+   background-color: white;
+   width: 60%;
+   margin: 0 auto;
+   padding: 15px;
+}
+article h2 {
+   text-align: center;
+}
+
+/* footer section */
+footer {
+   background-color: darkseagreen;
+   text-align: center;
+   padding: 10px;
+   border-top: 3px solid black;
+   border-bottom: 3px;
+}

@@ -1,0 +1,77 @@
+/* 
+   Revisions Bookstore and Cafe style sheet 
+   Filename: styles.css
+
+   Author: Wirnkar Emmanuel  
+   Date:  10/08/2026   
+   HTML5 and CSS3 Illustrated Unit D, Visual Workshop
+ */
+ /*   reset styles  */
+ article, aside, body, div, footer, h1, h2, p {
+	 margin: 0;
+	 border: 0;
+	 padding: 0;
+ }
+
+/* body and page container */
+body {
+   background-color: floralwhite;
+   margin: 0;
+   font-family: Georgia, "Times New Roman" serif;
+}
+.container {
+   background-color: burlywood;
+   width: 85%;
+   margin: 5px auto;  
+   border:2px solid navy;
+   overflow: hidden;  
+}
+/* headings */
+header {
+   text-align: center;
+   color: navy;
+   background-color: lightblue;
+   padding: 10px;
+   font-size: 24px;
+   front-weight: bold;
+}
+
+/* main content */
+article {
+   background-color: white;
+   float: right;
+   width:70%;
+   max-height: 145px;
+   padding: 15px;
+   box-sizing: border-box;  
+}
+
+article p {
+	margin: 0 0  10px 0;
+	line-height: 0 0 10px 0;
+}
+
+/* sidebar */
+aside {
+    background-color: burlywood;
+    float:left;
+    width:30%;
+    max-height: 145px;
+	padding: 15px;
+    box-sizing: border-box;
+}
+aside p {
+	margin: 10px 0 20px 0;
+	line-height: 1.4;
+}
+
+/* footer section */
+footer {
+   color: navy;
+   background-color: lightblue;
+   text-align: right;
+   padding: 10px 15px;
+   min-height: 40px;
+   clear: both;
+   box-sizing: border-box;
+}

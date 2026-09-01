@@ -1,0 +1,27 @@
+   /*Big J's Deep Dish Pizza style sheet
+   Filename: styles2.css
+   
+   
+   Author: Wirnkar Emmanuel
+   date: 17/07/2026
+   HTML5 and CSS3 Illustrasted Unit C, Skills Review
+   
+   */
+   article {
+			   background-color: violet;
+			   text-align: left;
+			   color: green;
+			}
+			#tagline {
+			   text-align: right;
+			}
+			.contact {
+			   text-align: right;
+			}
+			header, footer {
+			   background-color: black;
+			   color: red;
+			}
+			header, footer {
+				text-align: center;
+		    }
